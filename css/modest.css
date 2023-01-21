@@ -102,10 +102,7 @@ html {
 
 body {
   line-height: 1.85;
-  max-width: max-content;
-  margin: auto;
 }
-/* https://stackoverflow.com/a/29166036/10473854 */
 
 p,
 .modest-p {
@@ -184,13 +181,19 @@ html {
 }
 
 body {
-  color: #444;
+  color: rgb(15, 15, 15);
+  background-color: #9f9f9f;
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 300;
   margin: 0 auto;
-  max-width: 48rem;
+  max-width: 660px;
   line-height: 1.45;
   padding: .25rem;
+  /* max-width: max-content; */
+  /* margin: auto; */
+/* https://stackoverflow.com/a/29166036/10473854 */
+
+
 }
 
 h1,
