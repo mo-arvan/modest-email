@@ -102,7 +102,8 @@ html {
 
 body {
   line-height: 1.85;
-  margin:0 auto; 
+  max-width: max-content;
+  margin: auto;
 }
 /* https://stackoverflow.com/a/29166036/10473854 */
 
